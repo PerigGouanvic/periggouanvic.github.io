@@ -78,9 +78,7 @@ CIA planned to hack cars and trucks to carry out undetectable assassinations cla
          onmouseout="this.style.opacity=0"
          onmouseover="this.style.opacity=1; document.getElementById(&quot;
 CIA planned to hack cars and trucks to carry out undetectable assassinations claims WikiLeaks - Mirror Online
-&quot;).src=&quot;
-http://www.mirror.co.uk/news/world-news/year-zero-series-wikileaks-cia-9982483
-&quot;"
+&quot;).src=&quot;20170307171434/index.html&quot;"
          y="344.8999"
          x="205.3972"
          height="42.419445"
@@ -144,7 +142,7 @@ CIA planned to hack cars and trucks to carry out undetectable assassinations cla
                x="0"
                y="0"
                width="1024"
-               height="400"
+               height="800"
                id="foreignObject">
               <xhtml:body>
                 <xhtml:iframe
@@ -153,7 +151,7 @@ CIA planned to hack cars and trucks to carry out undetectable assassinations cla
                    id="
 CIA planned to hack cars and trucks to carry out undetectable assassinations claims WikiLeaks - Mirror Online
 "
-                   height="400"
+                   height="800"
                    width="1024"
                    scrolling="no" />
               </xhtml:body>
