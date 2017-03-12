@@ -63,35 +63,21 @@
            sandbox="allow-same-origin" />
       </xhtml:body>
     </foreignObject>
-
- <flowRoot
-     xml:space="preserve"
-     id="flowRoot3344"
-     style="font-style:normal;font-weight:normal;font-size:13px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
-       id="flowRegion3346"><rect
-         id="rect3348"
-         width="165.625"
-         height="900"
-         x="198.82812"
-         y="114.84375" /></flowRegion><flowPara
-       id="flowPara3350">Pour la petite histoire. Pendant le débat sur la charte, je fis valoir un certain type de respect à l'égard de la religion que l'on a tendance à ignorer. Il y a bien sûr une obligation de respecter les différentes postures adoptées à l'égard de la religion (croyant, athée, agnostique) ainsi que les différentes religions (chrétienne, juive, musulmane, bouddhiste, hindoue, sikh, etc..), mais il y a aussi l'obligation de respecter différentes façons de pratiquer la religion (en privé ou en communauté) et différentes facon de concevoir le religieux (un système de croyances que l'on endosse de l'extérieur ou une foi qui façonne notre identité). J'ai dans ce contexte signalé que certains chrétiens, certains musulmans et certains juifs pratiquaient la religion en communauté et que cette appartenance communautaire façonnait leur identité.
-
-J'ai voulu aussi indiquer que pour ces personnes, la religion fait partie de leur identité un peu comme le fait d'être LGBT fait partie de l'identité de la personne LGBT. Certaines personnes religieuses découvrent leur identité religieuse au terme d'une quête d'authenticité. Certains esprits critiques firent valoir en guise de réplique que l'on pouvait changer de religion et que cela démontrait que la religion est un système de croyances qui n'a aucun impact identitaire. Je répondis que l'on pouvait aussi changer d'orientation sexuelle, non pas pour indiquer que l'orientation sexuelle était une affaire de simple acte volonté. Au contraire, c'était plutôt pour indiquer que l'on pouvait parfois découvrir sa véritable nature profonde, à savoir une orientation sexuelle que l'on n'ose pas s'avouer.
-
-Pour les personnes LGBT de même que pour certaines personnes religieuses, le changement d'orientation sexuelle et la conversion ne sont pas des gestes anodins. Puisque dans les deux cas concernés, une dimension identitaire entre en ligne de compte, les changements font en sorte que l'on devient une autre personne.
-
-Tout ceci servait à montrer que la manifestation de la foi, vécue dans une perspective communautaire et identitaire, conférait au signe religieux lui-même une dimension identitaire et communautaire qu'il fallait respecter, eh oui, même dans la fonction publique.
-
-Mais certains sautèrent à pieds joints sur mon affirmation que l'on peut changer d'orientation sexuelle pour me faire dire que l'orientation sexuelle dépendrait du bon vouloir de la personne et de facteurs socioculturels. Cette interprétation était farfelue, complètement déplacée et exactement contraire à ce que j'avançais.
-
-Il me semble que c'est clair. Même si Walter Carlos a changé d'orientation sexuelle et est devenu Wendy Carlos, cela ne veut pas dire que cette décision n'est qu'une affaire de volonté. L'orientation sexuelle fait quand même partie de son identité. Walter Carlos est devenu une autre personne, tout comme Saül de Tarse est devenu une autre personne (l'apôtre Paul) suite à la conversion survenue lors de sa rencontre avec Jésus.
-
-Les esprits tordus en mal de se faire valoir contre Taylor, Bouchard, Leroux et moi veulent se servir des personnes LGBT pour mousser leur propre cause visant à stigmatiser certains groupes religieux minoritaires.
-
-Il est évident qu'une longue tradition sexiste et homophobe traverse les religions dans l'ensemble, mais il faut savoir faire la distinction entre ces traditions et la pratique effective de la religion telle que vécue à l'époque contemporaine par de nombreuses personnes ayant la foi. On peut vivre sa religion tout en dénonçant le sexisme et l'homophobie.
-
-Quoi qu'il en soit, il est odieux de trahir mon propos et de me faire dire exactement le contraire de ce que je dis. Je suis particulièrement outré d'être interprété à l'envers et d'une façon qui heurte la communauté LGBT.</flowPara><flowPara
-       id="flowPara3352" /></flowRoot>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3336"
+       style="font-style:normal;font-weight:normal;font-size:13px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+         id="flowRegion3338"><rect
+           id="rect3340"
+           width="380"
+           height="351.42856"
+           x="194.28572"
+           y="303.79077" /></flowRegion><flowPara
+         id="flowPara3346">Pour la petite histoire. Pendant le débat sur la charte, je fis valoir un certain type de respect à l'égard de la religion q évident qu'une longue tradition sexiste et homophobe traverse les religions dans l'ensemble, mais il faut savoir faire la distinction entre ces traditions et la pratique effective de la religion telle que vécue à l'époque contemporaine par de nombreuses personnes ayant la foi. On peut vivre sa religion tout en dénonçant le sexisme et l'homophobie.Quoi qu'il en soit, il est odieux de trahir mon propos et de me faire dire exactement le contraire de ce que je dis. Je suis particulièrement outré d'être interprété à l'envers et d'une façon qui heurte la communauté LGBT.</flowPara></flowRoot> </g>
   </switch>
 </svg>
 
