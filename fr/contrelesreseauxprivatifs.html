@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+    <title>Florilège, par Perig Gouanvic</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/hover.zoom.js"></script>
+    <script src="assets/js/hover.zoom.conf.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">PERIG</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="fr/work.html">Théorie</a></li>
+            <li><a href="fr/about.html">À propos</a></li>
+            <li><a href="fr/blog.html">Blogue</a></li>
+            <li><a href="fr/contact.html">Contact</a></li>
+	    <li><a href="index.html">EN</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	<!-- +++++ Welcome Section +++++ -->
+	<div id="ww">
+	    <div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 centered">
+					<img src="assets/img/cosmos.jpg" alt="Un Web parallèle">
+					<h1>Un Web parallèle</h1>
+									
+				</div><!-- /col-lg-8 -->
+			</div><!-- /row -->
+	    </div> <!-- /container -->
+	</div><!-- /ww -->
+	
+	<!-- +++++ Section contenu +++++ -->
+	Note from 2018-02-23 13:02:04.561
+
+Les réseaux privatifs et différentes difficultés techniques rendent difficile ou impossible l'inclusion directe de contenus dans un florilège (par des iFrames, ForeignObject, etc.).
+
+Les difficultés techniques associées à l'inclusion de contenus extrêmement variés comportant leurs propres styles, notifications, publicités, et les lenteurs occasionnées, ne sont pas des problèmes insurmontables.
+
+Ce qui est insurmontable, c'est l'interdiction par des réseaux comme Facebook d'inclure des contenus facebookiens, même s'ils sont les nôtres, où on le souhaite. C'est pour cette raison qu'il faut créer un miroir de ces pages que l'on souhaite inclure, qui nous appartient. 
+
+La manière la plus conservatrice de réaliser ce miroir serait de créer un convertisseur de pages, ou d'extraits de pages, qui nettoierait les sites comme Fb de leurs différents modules d'espionnage et de tout ce qui ne nous concerne pas pour ne conserver que le texte, les images, afin de restituer l'expérience épurée du contenu que nous souhaitons inclure. Une page ainsi mise en miroir aurait un code sous-jacent extrêmement simple, texte riche et images, sans références à l'infrastructure du site privatif dont elle provient, qui reproduirait au mieux sa signature (police propriétaire, icones brevetés, etc.).
+
+Il existe une méthode simple d'accomplir cela : la conversion en pdf. Les polices sont relativement bien approximées. Les pdf causent des cassures de phrases (à chaque saut de ligne), mais on se contentera de cette solution pour le moment.
+
+Un avantage supplémentaire de la conversion en pdf est qu'il est possible de forcer l'ouverture d'une section donnée de la page. Imagineons un article qui s'étend sur l'équivalent de plusieurs pages. Une fois convertie, la page deviendra un pdf de plusieurs pages. En ajoutant un code à l'adresse url où est stocké le pdf, on parvient à faire ouvrir dans le florilège la page qui nous intéresse. C'est une technique brouillonne, parce que l'extrait qui nous intéresse peut se trouver à la toute fin d'une page qui ne nous intéresse pas et parce que les coupures de pages sont souvent très mal faites (et occasionnent des pertes (d'une ligne, voire deux)), mais au moins nous parvenons à forcer un certain recadrage des ressources que nous incluons dans le florilège, ce qui est extrêmement hasardeux lorsque l'on inclut une page directement (forcer le iFrame à s'ouvrir quelques pixels, lignes, pourcentage de page, plus bas donne des résultats très variables.
+
+Voir Le Nuking des éléments indésirables des pages à conserver (en construction)
+
+
+	<!-- +++++ Footer Section +++++ -->
+	
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<h4>My Bunker</h4>
+					<p>
+						Some Address 987,<br/>
+						+34 9054 5455, <br/>
+						Madrid, Spain.
+					</p>
+				</div><!-- /col-lg-4 -->
+				
+				<div class="col-lg-4">
+					<h4>My Links</h4>
+					<p>
+						<a href="#">Dribbble</a><br/>
+						<a href="#">Twitter</a><br/>
+						<a href="#">Facebook</a>
+					</p>
+				</div><!-- /col-lg-4 -->
+				
+				<div class="col-lg-4">
+					<h4>À propos du thème Stanley</h4>
+					<p>This cute theme was created to showcase your work in a simple way. Use it wisely.</p>
+				</div><!-- /col-lg-4 -->
+			
+			</div>
+		
+		</div>
+	</div>
+	
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
