@@ -131,21 +131,37 @@ function calculateAllHeights() {
   });
 }
 
+// Ajouter les zones cliquables pour les perles
+function addPearlClickZones() {
+    const items = document.querySelectorAll('.accordion-item');
+    items.forEach(item => {
+        if (!item.querySelector('.pearl-click-zone')) {
+            const clickZone = document.createElement('div');
+            clickZone.className = 'pearl-click-zone';
+            clickZone.addEventListener('click', (e) => {
+                e.stopPropagation();
+                toggleAccordion(item);
+            });
+            item.insertBefore(clickZone, item.firstChild);
+        }
+    });
+}
+
 // Initialiser
 document.addEventListener('DOMContentLoaded', () => {
-  calculateAllHeights();
-  
-  const titles = document.querySelectorAll('.accordion-title');
-  titles.forEach(title => {
-    title.addEventListener('click', (e) => {
-      e.preventDefault();
-      const item = title.closest('.accordion-item');
-      toggleAccordion(item);
+    calculateAllHeights();
+    addPearlClickZones();
+    
+    const titles = document.querySelectorAll('.accordion-title');
+    titles.forEach(title => {
+        title.addEventListener('click', (e) => {
+            e.preventDefault();
+            const item = title.closest('.accordion-item');
+            toggleAccordion(item);
+        });
     });
-  });
 });
 
 // Recalculer au resize
-window.addEventListener('resize', () => {
-  calculateAllHeights();
-});
+window.addEventListener('resize', calculateAllHeights);
+
