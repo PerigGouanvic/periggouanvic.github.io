@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test-project-1.md",
+                "file": "vc-threonate.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "test-project-1"
+              "title": "vc-threonate"
             }
           }
         ]
@@ -180,8 +180,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "e8398e286e073d64",
+  "active": "7b823b947d30c33e",
   "lastOpenFiles": [
+    "test-project-1.md",
+    "vc-threonate.md",
     "images/memex.jpeg",
     "images",
     "intro.md"

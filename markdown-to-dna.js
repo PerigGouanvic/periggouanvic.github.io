@@ -3,7 +3,8 @@ const contentFiles = [
     'content/intro.md',
     'content/test-project-1.md',
     'content/test-project-2.md',
-    'content/test-project-3.md'
+    'content/test-project-3.md',
+    'content/vc-threonate.md'
 ];
 
 // Charger tous les fichiers et assembler
