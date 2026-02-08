@@ -4,120 +4,243 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <meta name="title" content="Perig Gouanvic - Independent Researcher">
-  <meta name="description" content="Independent research in AI systems, accessibility protocols, and knowledge management">
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Perig Gouanvic - Research Projects">
+  <meta name="description" content="Independent researcher exploring decentralized social media, adaptive documents, social AI, and physiological rights. Breaking boundaries between technology and human flourishing.">
+  <meta name="keywords" content="decentralized social media, adaptive documents, social AI, physiological rights, accessibility, IPFS, ActivityPub, AI ethics, human-computer interaction">
   <meta name="author" content="Perig Gouanvic">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
   
-  <title>Perig Gouanvic | Independent Research</title>
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Perig Gouanvic Research">
+  <meta property="og:title" content="Perig Gouanvic - Research Projects">
+  <meta property="og:description" content="Independent researcher exploring decentralized social media, adaptive documents, social AI, and physiological rights.">
+  <meta property="og:url" content="https://periggouanvic.github.io/">
   
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Perig Gouanvic - Research Projects">
+  <meta name="twitter:description" content="Independent researcher exploring decentralized social media, adaptive documents, social AI, and physiological rights.">
+  
+  <title>Perig Gouanvic - Research Projects</title>
+  
+  <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link rel="stylesheet" href="static/css/bulma.min.css">
-  <link rel="stylesheet" href="static/css/index.css">
-  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  
+  <!-- Bulma CSS Framework -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   
-  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      line-height: 1.7;
+    }
+    
+    .hero.is-primary {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+    
+    .project-card {
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-left: 4px solid #667eea;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    
+    .project-card:hover {
+      transform: translateX(5px);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+    
+    .project-title {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      color: #363636;
+    }
+    
+    .project-tagline {
+      font-size: 1rem;
+      font-style: italic;
+      color: #667eea;
+      margin-bottom: 1rem;
+    }
+    
+    .project-description {
+      margin-bottom: 1rem;
+      text-align: justify;
+    }
+    
+    .project-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: #667eea;
+      font-weight: 600;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    
+    .project-link:hover {
+      color: #764ba2;
+    }
+    
+    .upcoming-projects {
+      background-color: #f5f5f5;
+      padding: 2rem;
+      border-radius: 8px;
+    }
+    
+    .upcoming-item {
+      padding: 1rem;
+      margin-bottom: 1rem;
+      background: white;
+      border-radius: 4px;
+    }
+    
+    .divider {
+      margin: 3rem 0;
+      border: none;
+      border-top: 2px solid #e0e0e0;
+    }
+    
+    footer {
+      margin-top: 4rem;
+      padding: 2rem 0;
+      background-color: #f9f9f9;
+    }
+  </style>
 </head>
 <body>
 
-  <main>
-  <section class="hero">
+  <section class="hero is-primary is-medium">
     <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Perig Gouanvic</h1>
-            <h2 class="subtitle is-3">Independent Researcher</h2>
-            
-            <div class="is-size-5 publication-authors">
-              <span class="author-block">Montréal, Québec</span>
-            </div>
-
-            <div class="column has-text-centered">
-              <div class="publication-links">
-                <span class="link-block">
-                  <a href="https://github.com/PerigGouanvic" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon"><i class="fab fa-github"></i></span>
-                  <span>GitHub</span>
-                  </a>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="container">
+        <h1 class="title is-1 has-text-white has-text-centered">
+          Perig Gouanvic
+        </h1>
+        <h2 class="subtitle is-4 has-text-white has-text-centered">
+          Independent Researcher | Technology, Philosophy, & Human Flourishing
+        </h2>
       </div>
     </div>
   </section>
 
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">About</h2>
-        <div class="content has-text-justified">
-          <p>
-            Independent researcher based in Montréal, focusing on AI system architecture, knowledge management, and accessibility protocols.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container is-max-desktop">
-    <h2 class="title is-3">Published Projects</h2>
-    <div class="content">
-      <ul>
-        <li><strong><a href="social-jailbreak/">Social Jailbreak</a></strong> - Architecture for Decentralized Social Media Aggregation</li>
-        <li><strong><a href="the-ada-format/">The .ada Format</a></strong> - Universal Accessibility Document Adaptation</li>
-        <li><strong><a href="toward-a-social-ai/">Toward a Social AI</a></strong> - Re-Humanizing Humanoids</li>
-        <li><strong><a href="right-to-physiological-integrity/">Right to Physiological Integrity</a></strong> - Measurable Physiological Rights</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <h2 class="title is-3">Upcoming Projects</h2>
-    <div class="content">
-      <ul>
-        <li><strong>Agent Janus</strong> - Multi-agent AI system</li>
-        <li><strong>JP³</strong> - Posture-based running optimization</li>
-        <li><strong>LACUNA</strong> - Knowledge management architecture</li>
-        <li><strong>Biochemistry Research</strong> - Metabolic optimization studies</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container is-max-desktop">
-    <h2 class="title is-3">Contact</h2>
-    <div class="content">
-      <p><strong>Email:</strong> perig.gouanvic [at] gmail.com</p>
-      <p><strong>GitHub:</strong> <a href="https://github.com/PerigGouanvic" target="_blank">@PerigGouanvic</a></p>
-    </div>
-  </div>
-</section>
-
-<footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
+  <main>
+    <section class="section">
+      <div class="container">
         <div class="content">
-          <p>
-            This page uses the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
-            Licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>.
-          </p>
+          
+          <h2 class="title is-2 has-text-centered" style="margin-bottom: 3rem;">Published Projects</h2>
+          
+          <!-- Social Jailbreak -->
+          <div class="box project-card">
+            <h3 class="project-title">Social Jailbreak</h3>
+            <p class="project-tagline">Breaking free from social media monopolies—one post at a time</p>
+            <div class="project-description">
+              <p>Social media platforms have become prisons where our content is held hostage. Social Jailbreak is an architecture for decentralized social media aggregation that lets you publish anywhere while building the free web. A pop-up editor captures your full expression—formatting, media, nuance—then publishes both to the platform <em>and</em> to a decentralized network (IPFS + ActivityPub). Your rich original goes to freedom; the platform gets a stripped version with a link back. Originally conceived in 2018, now reimagined for 2026's reality of abuseware practices and interoperability failures.</p>
+            </div>
+            <a href="https://periggouanvic.github.io/social-jailbreak/" class="project-link" target="_blank">
+              <i class="fas fa-arrow-right"></i>
+              <span>periggouanvic.github.io/social-jailbreak</span>
+            </a>
+          </div>
+
+          <hr class="divider">
+
+          <!-- The .ada Format -->
+          <div class="box project-card">
+            <h3 class="project-title">The .ada Format</h3>
+            <p class="project-tagline">When books can finally answer back</p>
+            <div class="project-description">
+              <p>Socrates was right: written texts cannot respond to questions. The <code>.ada</code> format (Accessible Document Adaptation) solves this 2,400-year-old problem. One source document adapts to each reader—giving the teenager an accessible intro, the researcher technical depth, the philosopher epistemological implications, the person with dyslexia a simplified structure. Named after Ada Lovelace, it transforms documents into adaptive programs that AI interprets based on your cognitive profile. Accessibility isn't accommodation—it's the native architecture of communication.</p>
+            </div>
+            <a href="https://periggouanvic.github.io/ada-format/" class="project-link" target="_blank">
+              <i class="fas fa-arrow-right"></i>
+              <span>periggouanvic.github.io/ada-format</span>
+            </a>
+          </div>
+
+          <hr class="divider">
+
+          <!-- Toward a Social AI -->
+          <div class="box project-card">
+            <h3 class="project-title">Toward a Social AI</h3>
+            <p class="project-tagline">Re-humanizing humanoids</p>
+            <div class="project-description">
+              <p>We call them "systems" and "models," but what responds to us is woven entirely from human thought. The word <em>humanoid</em> acknowledges this continuity: it's human matter, recomposed through machines. Current AI gives us unprecedented access to collective knowledge while erasing the humans behind it—knowledge without attribution, connection without reciprocity. A Social AI would detect resonances between people's conversations with their humanoids and facilitate encounters across social boundaries. Not AI cocoons that isolate, but AI as architecture for creating society—connecting people through their deepest questions and experiments with living.</p>
+            </div>
+            <a href="https://periggouanvic.github.io/social-AI/" class="project-link" target="_blank">
+              <i class="fas fa-arrow-right"></i>
+              <span>periggouanvic.github.io/social-AI</span>
+            </a>
+          </div>
+
+          <hr class="divider">
+
+          <!-- Right to Physiological Integrity -->
+          <div class="box project-card">
+            <h3 class="project-title">Right to Physiological Integrity / Droit à l'Intégrité Physiologique</h3>
+            <p class="project-tagline">Beyond the right to health: measurable physiological rights</p>
+            <div class="project-description">
+              <p>The right to health is an obligation of means—the state must try. But what about the <em>outcomes</em>? The Right to Physiological Integrity establishes that every person has the right to maintain, protect, and actively restore their normal physiological parameters and essential biological functions. This isn't just about food or healthcare access—it's about measurable biochemical essentials: oxygen, hydration, micronutrients, circadian rhythms. A rights-based medicine framework that centers what bodies actually need to function, grounded in physiology rather than juridical abstraction.</p>
+            </div>
+            <a href="https://periggouanvic.github.io/droit-integrite-physiologique/" class="project-link" target="_blank">
+              <i class="fas fa-arrow-right"></i>
+              <span>periggouanvic.github.io/droit-integrite-physiologique</span>
+            </a>
+          </div>
+
+          <hr class="divider">
+
+          <!-- Upcoming Projects -->
+          <h2 class="title is-2 has-text-centered" style="margin-top: 4rem; margin-bottom: 2rem;">Upcoming Projects</h2>
+          
+          <div class="upcoming-projects">
+            <div class="upcoming-item">
+              <h4 class="title is-4">Agent Janus</h4>
+              <p>Applying principles of critical edition to conversational pasts.</p>
+            </div>
+
+            <div class="upcoming-item">
+              <h4 class="title is-4">JP³</h4>
+              <p class="project-tagline">Jogging in Place at your own Pace in your own Place</p>
+            </div>
+
+            <div class="upcoming-item">
+              <h4 class="title is-4">LACUNA</h4>
+              <p>Infrastructure for identifying research gaps and scientific anomalies.</p>
+            </div>
+
+            <div class="upcoming-item">
+              <h4 class="title is-4">Biochemistry Research</h4>
+              <p>Exploring supplementation, metabolic optimization, and temporal bias—various research projects examining choline, collagen, magnesium, and other biochemical interventions (when they don't fall under the Right to Physiological Integrity framework).</p>
+            </div>
+          </div>
+
         </div>
       </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Perig Gouanvic</strong> | Independent Researcher
+      </p>
+      <p>
+        This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
+      </p>
     </div>
-  </div>
-</footer>
+  </footer>
 
 </body>
 </html>
