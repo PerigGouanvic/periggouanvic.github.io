@@ -1,0 +1,40 @@
+# Robots.txt pour periggouanvic.github.io
+# Autorisation explicite pour tous les crawlers, incluant les IA
+
+# Règle par défaut: tout autorisé
+User-agent: *
+Allow: /
+
+# Crawlers IA spécifiques - autorisation explicite
+# OpenAI GPTBot
+User-agent: GPTBot
+Allow: /
+
+# Anthropic Claude
+User-agent: Claude-Web
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# Google Bard/Gemini
+User-agent: Google-Extended
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# Common Crawl (utilisé par plusieurs IA)
+User-agent: CCBot
+Allow: /
+
+# Diffbot
+User-agent: Diffbot
+Allow: /
+
+# Sitemap (optionnel - à créer si besoin)
+# Sitemap: https://periggouanvic.github.io/sitemap.xml
