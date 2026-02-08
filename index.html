@@ -1,19 +1,303 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Perig Gouanvic - Chercheur indépendant">
-    <title>Perig Gouanvic</title>
-    <link rel="stylesheet" href="dna-styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Perig Gouanvic - Independent Researcher">
+  <meta name="description" content="Independent researcher exploring AI systems, accessibility protocols, knowledge management, and physiological rights">
+  <meta name="keywords" content="artificial intelligence, accessibility, knowledge management, decentralized systems, social media, physiological rights, research">
+  <meta name="author" content="Perig Gouanvic">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English, Français">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Perig Gouanvic - Independent Research">
+  <meta property="og:title" content="Perig Gouanvic - Independent Researcher">
+  <meta property="og:description" content="Independent researcher exploring AI systems, accessibility protocols, knowledge management, and physiological rights">
+  <meta property="og:url" content="https://periggouanvic.github.io/">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Perig Gouanvic - Independent Researcher">
+  <meta name="twitter:description" content="Independent researcher exploring AI systems, accessibility protocols, knowledge management, and physiological rights">
+  
+  <!-- Additional SEO -->
+  <meta name="theme-color" content="#2563eb">
+  <meta name="msapplication-TileColor" content="#2563eb">
+  
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://ajax.googleapis.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+  <title>Perig Gouanvic - Independent Researcher</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  
+  <!-- Critical CSS -->
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  
+  <!-- Non-critical CSS -->
+  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  
+  <noscript>
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  </noscript>
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Defer JavaScript -->
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script defer src="static/js/index.js"></script>
 </head>
 <body>
-    <div class="accordion-container" id="content">
-        <!-- Contenu généré dynamiquement -->
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <main id="main-content">
+  
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Perig Gouanvic</h1>
+            <h2 class="subtitle is-3">Independent Researcher</h2>
+            <p class="subtitle is-5">Montréal, Québec</p>
+            
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <span class="link-block">
+                  <a href="https://github.com/PerigGouanvic" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>GitHub</span>
+                </a>
+              </span>
+              
+              <span class="link-block">
+                <a href="#contact"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fas fa-envelope"></i>
+                </span>
+                <span>Contact</span>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">À propos</h2>
+        <div class="content has-text-justified">
+          <p>
+            <em>[Placeholder: Brief bio and research interests to be added]</em>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Published Projects Section -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-2 has-text-centered" style="margin-bottom: 3rem;">Projets publiés</h2>
     
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="markdown-to-dna.js"></script>
-    <script src="dna-unwinding.js"></script>
+    <!-- Social Jailbreak -->
+    <div class="content" style="margin-bottom: 4rem;">
+      <h3 class="title is-3">
+        <a href="https://periggouanvic.github.io/social-jailbreak/" target="_blank">Social Jailbreak</a>
+      </h3>
+      <p class="subtitle is-5" style="margin-top: -1rem; margin-bottom: 1rem; font-style: italic;">
+        Breaking free from social media monopolies—one post at a time
+      </p>
+      <div class="has-text-justified">
+        <p>
+          Social media platforms have become prisons where our content is held hostage. Social Jailbreak is an architecture for decentralized social media aggregation that lets you publish anywhere while building the free web. A pop-up editor captures your full expression—formatting, media, nuance—then publishes both to the platform <em>and</em> to a decentralized network (IPFS + ActivityPub). Your rich original goes to freedom; the platform gets a stripped version with a link back. Originally conceived in 2018, now reimagined for 2026's reality of abuseware practices and interoperability failures.
+        </p>
+        <p>
+          <strong>→</strong> <a href="https://periggouanvic.github.io/social-jailbreak/" target="_blank">periggouanvic.github.io/social-jailbreak</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- The .ada Format -->
+    <div class="content" style="margin-bottom: 4rem;">
+      <h3 class="title is-3">
+        <a href="https://periggouanvic.github.io/ada-format/" target="_blank">The .ada Format</a>
+      </h3>
+      <p class="subtitle is-5" style="margin-top: -1rem; margin-bottom: 1rem; font-style: italic;">
+        When books can finally answer back
+      </p>
+      <div class="has-text-justified">
+        <p>
+          Socrates was right: written texts cannot respond to questions. The <code>.ada</code> format (Accessible Document Adaptation) solves this 2,400-year-old problem. One source document adapts to each reader—giving the teenager an accessible intro, the researcher technical depth, the philosopher epistemological implications, the person with dyslexia a simplified structure. Named after Ada Lovelace, it transforms documents into adaptive programs that AI interprets based on your cognitive profile. Accessibility isn't accommodation—it's the native architecture of communication.
+        </p>
+        <p>
+          <strong>→</strong> <a href="https://periggouanvic.github.io/ada-format/" target="_blank">periggouanvic.github.io/ada-format</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- Toward a Social AI -->
+    <div class="content" style="margin-bottom: 4rem;">
+      <h3 class="title is-3">
+        <a href="https://periggouanvic.github.io/social-AI/" target="_blank">Toward a Social AI</a>
+      </h3>
+      <p class="subtitle is-5" style="margin-top: -1rem; margin-bottom: 1rem; font-style: italic;">
+        Re-humanizing humanoids
+      </p>
+      <div class="has-text-justified">
+        <p>
+          We call them "systems" and "models," but what responds to us is woven entirely from human thought. The word <em>humanoid</em> acknowledges this continuity: it's human matter, recomposed through machines. Current AI gives us unprecedented access to collective knowledge while erasing the humans behind it—knowledge without attribution, connection without reciprocity. A Social AI would detect resonances between people's conversations with their humanoids and facilitate encounters across social boundaries. Not AI cocoons that isolate, but AI as architecture for creating society—connecting people through their deepest questions and experiments with living.
+        </p>
+        <p>
+          <strong>→</strong> <a href="https://periggouanvic.github.io/social-AI/" target="_blank">periggouanvic.github.io/social-AI</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- Right to Physiological Integrity -->
+    <div class="content" style="margin-bottom: 4rem;">
+      <h3 class="title is-3">
+        <a href="https://periggouanvic.github.io/droit-integrite-physiologique/" target="_blank">Right to Physiological Integrity / Droit à l'Intégrité Physiologique</a>
+      </h3>
+      <p class="subtitle is-5" style="margin-top: -1rem; margin-bottom: 1rem; font-style: italic;">
+        Beyond the right to health: measurable physiological rights
+      </p>
+      <div class="has-text-justified">
+        <p>
+          The right to health is an obligation of means—the state must try. But what about the <em>outcomes</em>? The Right to Physiological Integrity establishes that every person has the right to maintain, protect, and actively restore their normal physiological parameters and essential biological functions. This isn't just about food or healthcare access—it's about measurable biochemical essentials: oxygen, hydration, micronutrients, circadian rhythms. A rights-based medicine framework that centers what bodies actually need to function, grounded in physiology rather than juridical abstraction.
+        </p>
+        <p>
+          <strong>→</strong> <a href="https://periggouanvic.github.io/droit-integrite-physiologique/" target="_blank">periggouanvic.github.io/droit-integrite-physiologique</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Upcoming Projects Section -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <h2 class="title is-2 has-text-centered" style="margin-bottom: 3rem;">Projets à paraître</h2>
+    
+    <div class="content">
+      <div style="margin-bottom: 2.5rem;">
+        <h3 class="title is-4">Agent Janus</h3>
+        <p>Applying principles of critical edition to conversational pasts.</p>
+      </div>
+
+      <div style="margin-bottom: 2.5rem;">
+        <h3 class="title is-4">JP³</h3>
+        <p class="subtitle is-6" style="margin-top: -0.5rem; font-style: italic;">Jogging in Place at your own Pace in your own Place</p>
+      </div>
+
+      <div style="margin-bottom: 2.5rem;">
+        <h3 class="title is-4">LACUNA</h3>
+        <p>Infrastructure for identifying research gaps and scientific anomalies.</p>
+      </div>
+
+      <div style="margin-bottom: 2.5rem;">
+        <h3 class="title is-4">Biochemistry Research</h3>
+        <p>Exploring supplementation, metabolic optimization, and temporal bias—various research projects examining choline, collagen, magnesium, and other biochemical interventions (when they don't fall under the Right to Physiological Integrity framework).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="section" id="contact">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths has-text-centered">
+        <h2 class="title is-3">Contact</h2>
+        <div class="content">
+          <p>
+            <i class="fas fa-envelope"></i> 
+            <a href="#" onclick="revealEmail(); return false;" id="email-link">moc.liamg@civnauog.girep</a>
+          </p>
+          <p>
+            <i class="fab fa-github"></i> 
+            <a href="https://github.com/PerigGouanvic" target="_blank">GitHub: @PerigGouanvic</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p style="font-size: 0.85rem; color: #666; margin-top: 1rem;">
+            <em>Last updated: February 2026</em>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</main>
+
+<script>
+function revealEmail() {
+  var email = "moc.liamg@civnauog.girep".split("").reverse().join("");
+  var link = document.getElementById("email-link");
+  link.href = "mailto:" + email;
+  link.textContent = email;
+  link.onclick = null;
+}
+
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+}
+
+// Show scroll-to-top button on scroll
+window.addEventListener('scroll', function() {
+  var scrollBtn = document.querySelector('.scroll-to-top');
+  if (window.pageYOffset > 300) {
+    scrollBtn.style.display = 'block';
+  } else {
+    scrollBtn.style.display = 'none';
+  }
+});
+</script>
+
 </body>
 </html>
