@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "kepler.astrolab.app",
+      "sha256_cert_fingerprints": [
+        "A3:62:4F:42:F9:B4:EB:8D:A3:F4:72:47:BF:04:CD:02:A3:83:50:AF:F9:CA:2D:0A:88:80:53:A5:B0:F6:73:EA"
+      ]
+    }
+  }
+]
