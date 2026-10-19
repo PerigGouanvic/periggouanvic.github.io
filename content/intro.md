@@ -1,2 +1,0 @@
-# Perig Gouanvic
-Chercheur indépendant
