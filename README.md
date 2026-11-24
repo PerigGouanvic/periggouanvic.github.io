@@ -6,6 +6,7 @@ Publiée sur GitHub Pages : https://periggouanvic.github.io/
 ## Structure
 
 - `index.html` — page unique, tout le contenu est inline
+- `favicon.svg` — icône du site (initiales PG)
 - `.nojekyll` — désactive Jekyll (fichiers servis tels quels)
 - `robots.txt`, `sitemap.xml` — indexation
 - `.well-known/assetlinks.json` — Digital Asset Links (TWA astrolab)
